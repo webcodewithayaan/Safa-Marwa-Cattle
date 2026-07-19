@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadbury 🤎 | Safa Marwa Cattle Farm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+                <div class="logo-container">
+                    <img src="assets/img/logo.jpg" alt="Safa Marwa Logo">
+                </div>
+                <span class="fw-bold tracking-wide fs-4 text-white">Safa Marwa Cattle Farm</span>
+            </a>
+            <button class="navbar-toggler border-white text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-3 mt-3 mt-lg-0">
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold active" href="products.html">Showcase</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold" href="gallery.html">Gallery</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold" href="about.html">About Farm</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold" href="palai.html">Palai Services</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold" href="contact.html">Inquiry</a></li>
+
+                 
+                    <li class="nav-item position-relative mx-1">
+                        <a href="cart.html" class="btn btn-outline-light btn-sm rounded-circle p-2 position-relative">
+                            <i class="bi bi-cart3 fs-5"></i>
+                            <span id="cart-count" class="position-absolute badge rounded-pill bg-danger cart-badge">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm btn-outline-warning p-2 rounded-circle" id="themeToggleBtn" onclick="toggleTheme()">
+                            <i id="themeIcon" class="bi bi-sun-fill fs-5"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5">
+        <div class="container">
+            <nav class="breadcrumb-custom small mb-4">
+                <a href="index.html">Home</a> / <a href="products.html">Showcase</a> / <span class="theme-text-custom">Cadbury</span>
+            </nav>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <img src="./assets/img/Cadbury.jpg" alt="Cadbury" class="product-hero-img">
+                </div>
+                <div class="col-lg-6">
+                    <span class="badge bg-danger mb-2">Code: SM-06</span>
+                    <h1 class="fw-bold theme-text-custom">Cadbury 🤎</h1>
+                    <p class="text-muted">Cadbury gehray chocolate rang aur mazboot jism ki malik hai. Laal Sahiwal breed ki behtareen misaal.</p>
+                    <table class="table spec-table theme-text-custom">
+                        <tr><td class="fw-semibold">Breed</td><td>Laal Sahiwal</td></tr>
+                        <tr><td class="fw-semibold">Weight</td><td>710 KG</td></tr>
+                        <tr><td class="fw-semibold">Code</td><td>SM-06</td></tr>
+                        <tr><td class="fw-semibold">Availability</td><td><span class="badge bg-success">In Stock</span></td></tr>
+                    </table>
+                    <div class="d-flex align-items-center gap-3 mt-3 flex-wrap">
+                        <span class="fs-3 fw-bold text-warning">Rs. 580,000</span>
+                        <button class="btn btn-danger btn-lg rounded-pill px-4 fw-bold" data-cart-btn data-code="SM-06" data-name="Cadbury" data-price="580000" data-img="assets/img/6.jpg">Add to Cart</button>
+                        <a href="contact.html" class="btn btn-outline-danger btn-lg rounded-pill px-4 fw-bold">Book Inquiry</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <h4 class="fw-bold theme-text-custom mb-4">Other Animals You May Like</h4>
+                <div class="row g-4">
+                    
+                <div class="col-md-4">
+                    <a href="product-detail-1.html" class="text-decoration-none">
+                        <div class="insta-grid-item">
+                            <img src="./assets/img/Ansoo.jpg" class="insta-grid-bg" alt="Ansoo">
+                            <div class="insta-grid-content">
+                                <h5 class="fw-bold m-0 text-white">Ansoo 💘</h5>
+                                <span class="fs-6 fw-bold text-warning">Rs. 700,000</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="product-detail-2.html" class="text-decoration-none">
+                        <div class="insta-grid-item">
+                            <img src="./assets/img/Bitcoin.jpg" class="insta-grid-bg" alt="Bitcoin">
+                            <div class="insta-grid-content">
+                                <h5 class="fw-bold m-0 text-white">Bitcoin </h5>
+                                <span class="fs-6 fw-bold text-warning">Rs. 620,000</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="product-detail-3.html" class="text-decoration-none">
+                        <div class="insta-grid-item">
+                            <img src="./assets/img/Barfi.jpg" class="insta-grid-bg" alt="Barfi">
+                            <div class="insta-grid-content">
+                                <h5 class="fw-bold m-0 text-white">Barfi 🤍</h5>
+                                <span class="fs-6 fw-bold text-warning">Rs. 650,000</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="bg-black text-white pt-5 pb-3 border-top border-danger border-3">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <div class="logo-container" style="width:45px; height:45px;">
+                            <img src="assets/img/logo.jpg" alt="Safa Marwa Logo">
+                        </div>
+                        <h4 class="fw-bold m-0 text-white text-uppercase tracking-wide">Safa Marwa Cattle Farm</h4>
+                    </div>
+                    <p class="text-muted small">Quality livestock breeding, standard transparent deals, aur elite structural bulls in Pakistan.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-danger fw-bold text-uppercase mb-3 tracking-wider">Quick Links</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="index.html" class="text-muted">Home</a></li>
+                        <li class="mb-2"><a href="products.html" class="text-muted">Showcase</a></li>
+                        <li class="mb-2"><a href="gallery.html" class="text-muted">Gallery</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-muted">About Farm</a></li>
+                        <li class="mb-2"><a href="palai.html" class="text-muted">Palai Services</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-muted">Inquiry</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-danger fw-bold text-uppercase mb-3 tracking-wider">Farm Owners</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 d-flex align-items-center gap-2"><i class="bi bi-telephone-fill text-danger"></i><span><strong>Anas:</strong> 0331-3095344</span></li>
+                        <li class="mb-2 d-flex align-items-center gap-2"><i class="bi bi-telephone-fill text-danger"></i><span><strong>Talha:</strong> 0336-2129672</span></li>
+                    </ul>
+                    <p class="mb-3 d-flex align-items-start gap-2 text-light small">
+                        <i class="bi bi-geo-alt-fill text-danger mt-1"></i><span>Jameel Memon Society, Karachi, Pakistan.</span>
+                    </p>
+                    <div class="d-flex gap-2 mt-2">
+                        <a href="https://facebook.com" target="_blank" class="social-icon-btn" title="Facebook"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="social-icon-btn" title="Instagram"><i class="bi bi-instagram fs-5"></i></a>
+                        <a href="https://tiktok.com" target="_blank" class="social-icon-btn" title="TikTok"><i class="bi bi-tiktok fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center">
+                <p class="m-0 text-muted small">&copy; 2026 Safa Marwa Cattle Farm. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

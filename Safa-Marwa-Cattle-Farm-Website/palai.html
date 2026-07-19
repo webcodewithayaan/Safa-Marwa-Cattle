@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palai Services | Safa Marwa Cattle Farm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+                <div class="logo-container">
+                    <img src="assets/img/logo.jpg" alt="Safa Marwa Logo">
+                </div>
+                <span class="fw-bold tracking-wide fs-4 text-white">Safa Marwa Cattle Farm</span>
+            </a>
+            <button class="navbar-toggler border-white text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-3 mt-3 mt-lg-0">
+                    <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold" href="products.html">Showcase</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold" href="gallery.html">Gallery</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold" href="about.html">About Farm</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold active" href="palai.html">Palai Services</a></li>
+<li class="nav-item"><a class="nav-link fw-semibold" href="contact.html">Inquiry</a></li>
+
+                   
+                    <li class="nav-item position-relative mx-1">
+                        <a href="cart.html" class="btn btn-outline-light btn-sm rounded-circle p-2 position-relative">
+                            <i class="bi bi-cart3 fs-5"></i>
+                            <span id="cart-count" class="position-absolute badge rounded-pill bg-danger cart-badge">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm btn-outline-warning p-2 rounded-circle" id="themeToggleBtn" onclick="toggleTheme()">
+                            <i id="themeIcon" class="bi bi-sun-fill fs-5"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section d-flex align-items-center justify-content-center text-center shadow-lg" style="height:40vh; min-height:280px;">
+        <img src="assets/img/palai.jpg" class="position-absolute top-0 start-0 w-100 h-100 hero-bg-img" alt="Palai Services">
+        <div class="hero-overlay-text container">
+            <span class="badge bg-danger px-3 py-2 text-uppercase mb-3 tracking-wider">Palai Service Open For 2027-28</span>
+            <h1 class="fw-bold display-5">Palai Services</h1>
+            <p class="fs-5">Quality Care for Cattle &bull; Premium Comfort &bull; Safe Environment &bull; Dedicated Staff &bull; Better Returns</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" style="max-width:750px; margin:0 auto;">
+                <h2 class="fw-bold display-6 theme-text-custom mb-3">Apna Janwar, Hamari Zimmedari</h2>
+                <p class="text-muted">Bohat se log Eid se pehle apna khud ka janwar khareed lete hain lekin usay roz sambhalna mushkil ho jata hai. Isi liye Safa Marwa Cattle Farm ne Palai service shuru ki hai — aap apna janwar hamare paas rakhwayein, aur hum uski khorak, safai, aur sehat ka poora khayal rakhein, taake Eid par aapka janwar behtareen halat me ho.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-5">
+                    <div class="palai-card">
+                        <h3 class="fw-bold theme-text-custom">Golden Package</h3>
+                        <div class="palai-price my-3">Rs. 30,000</div>
+                        <ul class="list-unstyled theme-text-custom">
+                            <li class="mb-2"><i class="bi bi-check2-circle text-danger me-2"></i>Desi Wanda</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle text-danger me-2"></i>Kuttar</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle text-danger me-2"></i>Bhusa</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle text-danger me-2"></i>Vaccination</li>
+                        </ul>
+                        <p class="text-muted small">Maximum Care &amp; Healthy Growth</p>
+                        <a href="contact.html" class="btn btn-outline-danger rounded-pill px-4 fw-bold w-100 mt-2">Book Golden Package</a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="palai-card platinum">
+                        <h3 class="fw-bold theme-text-custom">Platinum Package</h3>
+                        <div class="palai-price my-3">Rs. 50,000</div>
+                        <ul class="list-unstyled theme-text-custom">
+                            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:var(--accent-gold);"></i>Desi Wanda</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:var(--accent-gold);"></i>Kutter Extra</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:var(--accent-gold);"></i>Bhusa Extra</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:var(--accent-gold);"></i>All Vaccination</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:var(--accent-gold);"></i>Masala</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:var(--accent-gold);"></i>Ghee In Winter</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color:var(--accent-gold);"></i>Medical Checkup</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-warning rounded-pill px-4 fw-bold w-100 mt-2 text-dark">Book Platinum Package</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <h5 class="theme-text-custom fw-bold">Contact for Booking</h5>
+                <p class="text-muted">Anas: 0331-3095344 &nbsp;|&nbsp; Talha: 0336-2129672</p>
+                <p class="text-muted">Location: Jameel Memon Society, Karachi</p>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="bg-black text-white pt-5 pb-3 border-top border-danger border-3">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <div class="logo-container" style="width:45px; height:45px;">
+                            <img src="assets/img/logo.jpg" alt="Safa Marwa Logo">
+                        </div>
+                        <h4 class="fw-bold m-0 text-white text-uppercase tracking-wide">Safa Marwa Cattle Farm</h4>
+                    </div>
+                    <p class="text-muted small">Quality livestock breeding, standard transparent deals, aur elite structural bulls in Pakistan.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-danger fw-bold text-uppercase mb-3 tracking-wider">Quick Links</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="index.html" class="text-muted">Home</a></li>
+                        <li class="mb-2"><a href="products.html" class="text-muted">Showcase</a></li>
+                        <li class="mb-2"><a href="gallery.html" class="text-muted">Gallery</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-muted">About Farm</a></li>
+                        <li class="mb-2"><a href="palai.html" class="text-muted">Palai Services</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-muted">Inquiry</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-danger fw-bold text-uppercase mb-3 tracking-wider">Farm Owners</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 d-flex align-items-center gap-2"><i class="bi bi-telephone-fill text-danger"></i><span><strong>Anas:</strong> 0331-3095344</span></li>
+                        <li class="mb-2 d-flex align-items-center gap-2"><i class="bi bi-telephone-fill text-danger"></i><span><strong>Talha:</strong> 0336-2129672</span></li>
+                    </ul>
+                    <p class="mb-3 d-flex align-items-start gap-2 text-light small">
+                        <i class="bi bi-geo-alt-fill text-danger mt-1"></i><span>Jameel Memon Society, Karachi, Pakistan.</span>
+                    </p>
+                    <div class="d-flex gap-2 mt-2">
+                        <a href="https://facebook.com" target="_blank" class="social-icon-btn" title="Facebook"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="social-icon-btn" title="Instagram"><i class="bi bi-instagram fs-5"></i></a>
+                        <a href="https://tiktok.com" target="_blank" class="social-icon-btn" title="TikTok"><i class="bi bi-tiktok fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center">
+                <p class="m-0 text-muted small">&copy; 2026 Safa Marwa Cattle Farm. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
